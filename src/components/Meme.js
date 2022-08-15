@@ -91,7 +91,7 @@ const StyledImg = styled.img`
 
 const MobileNewMemeButton = styled.button`
     bottom: 0;
-    position: absolute;
+    position: fixed;
     width: 96%;
     margin: 8px;
     height: 40px;
@@ -103,6 +103,7 @@ const MobileNewMemeButton = styled.button`
     background-color: #ed8a3e;
     font-weight: 600;
     font-family: system-ui;
+    z-index: 99;
 `;
 
 const Spinner = styled.div`
