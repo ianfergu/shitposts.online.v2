@@ -76,4 +76,12 @@ h2 {
   margin: auto;
   text-align: center;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2b2b2b;
+    color: white;
+  }
+}
+
 `;
