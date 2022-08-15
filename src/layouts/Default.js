@@ -4,7 +4,7 @@ import Dropdown from "../components/Dropdown";
 
 const Header = styled.div`
   top: 0;
-  height: 100px;
+  height: 50px;
   color: white;
   background-color: #ed8a3e;
   display: flex;
@@ -12,6 +12,10 @@ const Header = styled.div`
   gap: 30vw;
   align-items: center;
   width: 100%;
+  @media only screen and (min-width: 1000px) {
+    height: 100px;
+  }
+
 `;
 
 const HeaderTitle = styled.h1`
@@ -44,16 +48,12 @@ function Default(onClickCallback) {
       <HeaderTitle>
         Shitposts
       </HeaderTitle>
-      {!isMobile ? (
-        <CenterNav>
-          {/* <NavButton>Meme Generator</NavButton>
-          <NavButton>About</NavButton>
-          <NavButton>Meme of the Week</NavButton> */}
-          {/* <NewMemeButton onClick={onClickCallback}>New Meme</NewMemeButton> */}
-        </CenterNav>
-      ) : (
-        <Dropdown></Dropdown>
-      )}
+      <CenterNav>
+        {/* <NavButton>Meme Generator</NavButton>
+        <NavButton>About</NavButton>
+        <NavButton>Meme of the Week</NavButton> */}
+        {/* <NewMemeButton onClick={onClickCallback}>New Meme</NewMemeButton> */}
+      </CenterNav>
     </Header>
   );
 }
