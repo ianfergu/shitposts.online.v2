@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shitposts.online.v2/static/css/main.e6c13ad2.css",
+    "main.js": "/shitposts.online.v2/static/js/main.aba44f4b.js",
+    "static/js/787.48c611a4.chunk.js": "/shitposts.online.v2/static/js/787.48c611a4.chunk.js",
+    "index.html": "/shitposts.online.v2/index.html",
+    "main.e6c13ad2.css.map": "/shitposts.online.v2/static/css/main.e6c13ad2.css.map",
+    "main.aba44f4b.js.map": "/shitposts.online.v2/static/js/main.aba44f4b.js.map",
+    "787.48c611a4.chunk.js.map": "/shitposts.online.v2/static/js/787.48c611a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.aba44f4b.js"
+  ]
+}
