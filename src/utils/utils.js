@@ -43,7 +43,8 @@ export const getImgHead = async (tries = 0) => {
 }
 
 export const getSentence = async () => {
-	const response = await fetch("/sentencebank.txt", {dataType: 'text'});
+	const url = (window.location.pathname == "/shitposts.online.v2") ? "/shitposts.online.v2/sentencebank.txt" : "sentencebank.txt";
+	const response = await fetch(url, {dataType: 'text'});
 	const data = await response.text();
 	return printSelective(data);
 }
