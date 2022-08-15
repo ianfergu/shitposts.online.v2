@@ -18,9 +18,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Cabin />
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={'shitposts.online.v2'}>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" exact element={<Main />} />
         <Route path="about" element={<About />} />
         <Route path="shitpost-of-the-week" element={<ShitpostOfTheWeek />} />
       </Routes>
